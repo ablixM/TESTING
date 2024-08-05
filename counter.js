@@ -28,9 +28,9 @@ function incNbrRec(currentNumber, endNumber, element, speed) {
 function handleIntersection(entries, observer) {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      increaseNumberAnimation("nbr", 9, 100);
+      increaseNumberAnimation("nbr", 9, 300);
       increaseNumberAnimation("leetCode-nbr", 40, 100);
-      increaseNumberAnimation("meetUp-nbr", 20, 100);
+      increaseNumberAnimation("meetUp-nbr", 20, 200);
       observer.unobserve(entry.target);
     }
   });
