@@ -211,58 +211,74 @@ text-fill-color: transparent;
     height: 40px;
 }
 
-.card {
-    width: 190px;
-    height: 254px;
-    transition: all 0.2s;
+
+
+
+  .section-four{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .overview-container{
     position: relative;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
+    width: 100%;
+    height: 400px;
+  }
+
+  .overview-container:nth-child(2){
+    background-image: linear-gradient(to top, #161616, #161616, #161616, #161616, #161616);
+  }
+  .overview-container:nth-child(3){
+    background-image: linear-gradient(to top, #000000, #070707, #0d0d0d, #121212, #161616);
   }
   
-  .card-inner {
-    width: inherit;
-    height: inherit;
-    background: rgba(255,255,255,.05);
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
-    backdrop-filter: blur(10px);
-    border-radius: 8px;
+
+
+  .div-first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000000;
+    width: 100%;
+    /* border: solid 1px rgb(25, 0, 255); */
   }
+
+  .div-first P{
+    font-size: 2em;
+    color: white;
+    font-weight: 200;
+    height: 50%;
+  }
+
+  .div-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000000;
+    /* border: solid 1px rgb(255, 0, 0); */
+    width: 100%;
+    height: 50%;
+
+  }
+
   
-  .card:hover {
-    transform: scale(1.04) rotate(1deg);
-  }
+.overview{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+
+
   
-  .circle {
-    width: 100px;
-    height: 100px;
-    background: radial-gradient(#b0e633, #53ef7d);
-    border-radius: 50%;
-    position: absolute;
-    animation: move-up6 2s ease-in infinite alternate-reverse;
-  }
-  
-  .circle:nth-child(1) {
-    top: -25px;
-    left: -25px;
-  }
-  
-  .circle:nth-child(2) {
-    bottom: -25px;
-    right: -25px;
-    animation-name: move-down1;
-  }
-  
-  @keyframes move-up6 {
-    to {
-      transform: translateY(-10px);
-    }
-  }
-  
-  @keyframes move-down1 {
-    to {
-      transform: translateY(10px);
-    }
-  }
 
 
 
@@ -292,7 +308,7 @@ text-fill-color: transparent;
         padding-bottom: 10px;
     }
     .section-three{
-        justify-content: start;
+        justify-content: center;
     }
 
    
@@ -372,6 +388,10 @@ text-fill-color: transparent;
 
     .card{
         display: none;
+    }
+
+    .overview{
+        order: 2;
     }
    
  
@@ -464,6 +484,25 @@ text-fill-color: transparent;
         padding: 10px; 
     }
 
+    .overview-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
+        width: 100%;
+        height: 400px;
+    }
+   
+    .overview{
+        order: 1;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .overview-container div{
+        order: 2;
+    }
 
    
 }
