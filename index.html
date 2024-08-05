@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='navBarHidden.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='navBar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='buttons.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="menu">
+        <ul>
+          <li><a href="#">Plans</a></li>
+          <li><a href="#">MeetUp Schedule</a></li>
+          <li><a href="#">Members</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+
+
+
+
+
+
+      <nav class="nav-bar">
+        <div class="container">
+            <div class="logo">
+                <p>
+                    <span>BINARY DREAMERS<span class="sub">TM</span></span> 
+                    
+                </p>
+            </div>
+
+            <div class="left">
+
+            </div>
+    
+            <div class="nav-links">
+                <div class="links">
+                    <li><a href="">Plans</a></li>
+                    <li><a href="">MeetUp Schedule</a></li>
+                    <li><a href="">Members</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </div>
+        </div>
+
+            
+        <div class="left">
+                <label for="mode">
+                    <div class="mode">
+                            <input id="mode" type="checkbox">
+                            <img class="sun" name="sunny" src="assets/svg/sunny.svg" alt="">
+                            <img class="moon" name="moon" src="assets/svg/moon.svg" alt="">
+                            <span class="toggle-mode"></span>
+                    </div>
+                </label>    
+                <div class="burger-menu">
+                        <div class="toggle"> 
+                        </div>
+                </div>
+            </div>          
+        </div>     
+    </nav>
+
+
+  <section class="showcase">
+
+
+<section class="hero-container">
+    <div class="hero-content">
+        <div class="shape">
+            
+            <video class="hero-video" autoplay muted loop>
+                <source src="assets/video/landvid.mp4" type="video/mp4">      
+            </video>
+        </div>
+        <div class="title">
+            <span class="main-title">
+                <h1><span class="auto-type"></span></h1>
+            </span>
+            <span class="sub-title">
+                <button class="button-49" role="button">Join the Binary Dreamers</button>
+            </span>
+
+            <div class="quick-info">
+                <button class="button">
+                    <div class="icon_cont">
+                      <span class="icon">(¬‿¬)</span>
+                    </div>
+                    <span class="text_button">Get More Info</span>
+                  </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="section-two">
+    <div class="member-counter">
+        <div class="member-number">
+            <p id="nbr">0+</p>
+        </div>
+        <div class="sub-text-member">Members Recruited</div>
+    </div>
+
+    <div class="member-counter">
+        <div class="member-number">
+            <p id="leetCode-nbr">0+</p>
+        </div>
+        <div class="sub-text-member">LeetCode Problem Solved</div>
+    </div>
+
+    <div class="member-counter">
+        <div class="member-number">
+            <p id="meetUp-nbr">0+</p>
+        </div>
+        <div class="sub-text-member">MeetUp</div>
+    </div>
+</section>
+
+<section class="section-three">
+    <div class="stats">
+        <div class="stat-number">
+            <p>01</p>
+        </div>
+        <div class="stat-title">
+            <p>LeetCode Problems</p>
+            <span>smtn</span>
+        </div>
+        <div class="stat-detail-btn">
+            <img src="assets/svg/arrowight.svg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+  
+
+
+
+  
+      
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    <script src='hiddenNavBar.js'></script>
+    <script src='navBar.js'></script>
+    <script src='counter.js'></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        
+        var typed = new Typed('.auto-type', {
+          strings: ["Dream","Code", "Achieve" ,"Innovate", "Create", "Inspire"],
+          typeSpeed: 120,
+          backSpeed: 150,
+          loop: true, 
+        });
+      </script>
+</body>
+</html>
