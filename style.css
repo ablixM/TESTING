@@ -11,6 +11,7 @@ body {
 
 .hero-container {
     height: 100vh;
+   width: 100%;
     display: flex;
     flex-direction: column; 
     justify-content: center;  
@@ -21,7 +22,6 @@ body {
 background: -webkit-linear-gradient(to right, #2e0d44, #000000);  
 background: linear-gradient(to right, #2e0d44, #000000); 
 
-    
 }
 
 .hero-content{
@@ -93,6 +93,17 @@ background: linear-gradient(to right, #2e0d44, #000000);
     font-size: 8em;
     color: white;
     font-weight: 700;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    max-width: 2560px;
+    height: 100%;
+    width: 100%;
 }
 
 #nbr{
@@ -224,11 +235,10 @@ text-fill-color: transparent;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
     width: 100%;
-    height: 400px;
   }
 
   .overview-container:nth-child(2){
@@ -246,15 +256,7 @@ text-fill-color: transparent;
     justify-content: center;
     align-items: center;
     background-color: #00000000;
-    width: 100%;
-    /* border: solid 1px rgb(25, 0, 255); */
-  }
-
-  .div-first P{
-    font-size: 2em;
-    color: white;
-    font-weight: 200;
-    height: 50%;
+    width: 50%;
   }
 
   .div-second{
@@ -272,7 +274,7 @@ text-fill-color: transparent;
   
 .overview{
     display: flex;
-    margin-bottom: 30px;
+    width: 50%;
 }
 
 
@@ -392,7 +394,33 @@ text-fill-color: transparent;
 
     .overview{
         order: 2;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 60px;
     }
+
+    .div-first{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+
+    .overview-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-first{
+        display: none;
+    }
+
+
+
+  
+    
    
  
 }
@@ -484,25 +512,101 @@ text-fill-color: transparent;
         padding: 10px; 
     }
 
+    .card-inner span p{
+        font-size: 2.5em;
+        font-weight: 500;
+        color: white;
+        padding: 10px; 
+    }
+
     .overview-container{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+       padding-bottom: 60px;
+        /* height: 400px; */
         align-items: center;
         background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
         width: 100%;
-        height: 400px;
+        padding: 40px 20px;
     }
    
     .overview{
         order: 1;
         justify-content: center;
-        margin-bottom: 30px;
     }
 
     .overview-container div{
         order: 2;
+       
     }
+
+    .div-first{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        padding: 20px 0;
+        background-image: linear-gradient(to right top, #161616, #121212, #0d0d0d, #070707, #000000);
+        border-width: 1px;
+        border-style: solid;
+        padding: 5px;
+        border-right: none;
+    }
+
+    /* .div-first-title{
+        font-size: 2em;
+        color: white;
+        font-weight: 200;
+        padding-left: 20px;
+    } */
+
+    .div-first-title{
+        display: none;
+    }
+
+    .div-first-text{
+        font-size: 1em;
+        color: white;
+        font-weight: 200;
+        padding: 20px;
+    }
+
+    .div-first li{
+        list-style: none;
+        padding: 0 15px ;
+        color: white;
+        font-weight: 200;
+        font-size: 1em;
+    }
+
+    .div-first li h2{
+        font-size: 1.5em;
+        font-weight: 700;
+        background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .div-first-text span{
+        font-size: 1.5em;
+        font-weight: 700;
+        background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    }
+
+    .div-first{
+        display: flex;
+        justify-content: end;
+        border-left: none;
+        
+        
+    }
+    
 
    
 }

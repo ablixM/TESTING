@@ -44,7 +44,13 @@
     font-size: 1.4em;
     font-weight: 700;
     color: white;
-    max-width: 200px;;
+  max-width: 200px;;
+}
+
+.logo-small{
+    line-height: 30px;
+    font-size: 1.3em;
+    width: 190px;
 }
 
 .sub{

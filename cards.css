@@ -23,7 +23,7 @@
   .circle {
     width: 100px;
     height: 100px;
-    background: radial-gradient(#b0e633, #53ef7d);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 50%;
     position: absolute;
     animation: move-up6 2s ease-in infinite alternate-reverse;
@@ -58,8 +58,6 @@
 .card-overview {
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 320px;
     border-radius: 24px;
     line-height: 1.6;
@@ -67,15 +65,19 @@
   }
   
   .content {
+    border: solid 1px rgb(25, 0, 255);
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
     padding: 36px;
+    margin: 0;
     border-radius: 22px;
     color: #ffffff;
     overflow: hidden;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
   }
   
@@ -87,10 +89,10 @@
     width: 90%;
     height: 90%;
     transform: translate(-50%);
-    background: #ced8ff;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     z-index: -1;
     transform-origin: bottom;
-  
+    transition:  background-image 1s ease;
     border-radius: inherit;
     transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -103,17 +105,22 @@
     width: 80%;
     height: 80%;
     transform: translate(-50%);
-    background: #e7ecff;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
     z-index: -2;
     transform-origin: bottom;
     border-radius: inherit;
     transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
   }
+
+  .content:hover{
+    background-image: linear-gradient(to right, #2575fc 0%, #6a11cb 100%);
+  }
   
   .content .para {
     z-index: 1;
     opacity: 1;
-    font-size: 18px;
+    font-size: 3em;
+    line-height: 50px;
     transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
   }
   
@@ -147,3 +154,43 @@
     width: 100%;
     height: 100%;
   }
+
+  @media (min-width: 769px) {
+    .card-overview {
+      width: 360px;
+    }
+    .content .para{
+      font-size: 2.5em;
+      padding: 20px;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content img{
+      display: none;
+    }
+  }
+
+
+
+  @media(max-width: 768px) {
+    .content .para{
+      font-size: 2.5em;
+      padding: 20px;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content img{
+      width: 40px;
+      height: 40px;
+  }
+}
