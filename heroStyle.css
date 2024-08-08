@@ -1,0 +1,120 @@
+.project-hero{
+    height: 100vh;
+    width: 100%;
+     display: flex;
+     flex-direction: column; 
+     justify-content: center;  
+     align-items: center;
+     color: white;
+     text-align: center;
+     background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+}
+
+.hero-content-project{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.hero-text-project{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.hero-text-project h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+}
+
+.hero-text-project p{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+
+/* From Uiverse.io by biswacpcode */ 
+.hero-text-project button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: none;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+  }
+  
+  .hero-text-project  button::before {
+    margin-left: auto;
+  }
+  
+  .hero-text-project button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .hero-text-project button:hover::after, button:hover::before {
+    width: 100%;
+  }
+
+  @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+@media(max-width: 600px) {
+    .hero-text-project h1{
+        font-size: 2.5rem;
+    }
+    .hero-text-project p{
+        font-size: 1.2em;
+    }
+    .hero-text-project button {
+        font-size: 1em;
+    }
+}
+
+
+@media(max-width: 768px) {
+
+}
+
+
+
+@media(min-width: 768px) {
+    
+}

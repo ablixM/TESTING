@@ -19,9 +19,7 @@ body {
     align-items: center;
     color: white;
     text-align: center;
-    background: #000000; 
-background: -webkit-linear-gradient(to right, #2e0d44, #000000);  
-background: linear-gradient(to right, #2e0d44, #000000); 
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
 
 }
 
