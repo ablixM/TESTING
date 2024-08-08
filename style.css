@@ -578,7 +578,7 @@ text-fill-color: transparent;
         justify-content: start;
         flex-direction: column;
         padding: 20px 0;
-        background-image: linear-gradient(to right top, #161616, #121212, #0d0d0d, #070707, #000000);
+        /* background-image: linear-gradient(to right top, #161616, #121212, #0d0d0d, #070707, #000000); */
         border-width: 1px;
         border-style: solid;
         border-right: none;
