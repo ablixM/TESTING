@@ -34,13 +34,13 @@
       </div>
 
 
-
+<!-- 
       <div id="loader" class="loader">
           <video id="timedVideo" autoplay muted>
             <source src="assets/video/Simple-Dot-[remix].mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>   
-      </div>
+      </div> -->
     
 
 
@@ -103,7 +103,7 @@
                 <h1><span class="auto-type"></span></h1>
             </span>
             <span class="sub-title">
-                <button class="button-49" role="button">Join the Binary Dreamers</button>
+                <button data-target="#targetApply" class="button-49 scrollButton" role="button">Join the Binary Dreamers</button>
             </span>
 
             <div class="quick-info">
@@ -111,7 +111,7 @@
                     <div class="icon_cont">
                       <span class="icon">(¬‿¬)</span>
                     </div>
-                    <span class="text_button">Get More Info</span>
+                    <span data-target="#targetInfo" class="text_button scrollButton">Get More Info</span>
                   </button>
             </div>
         </div>
@@ -216,7 +216,7 @@
     </section>
     
     
-    <section class="section-four">
+    <section id="targetInfo"  class="section-four">
         <div class="overview-container">
             <div class="overview">
                 <div class="card-overview">
@@ -567,7 +567,7 @@
                 </g>
               </svg>
             </div>
-            <p class="text-social">HOVER<br /><br />FOR<br /><br />SOCIAL</p>
+            <p class="text-social">CLICK<br /><br />ME<br /><br />FOR<br /><br />SOCIAL</p>
             <div class="main_back"></div>
           </div>
           
@@ -578,7 +578,7 @@
 
 
 
-    <section class="section-six">
+    <section id="targetApply" class="section-six">
       <div class="send-email">
         <div class="text">
            Contact us
@@ -717,7 +717,7 @@
               <div class="footer-call-to-action">
                 <h2 class="footer-call-to-action-title"> Let's Chat</h2>
                 <p class="footer-call-to-action-description"> Have question?</p>
-                <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
+                <a data-target="#targetApply" class="footer-call-to-action-button button scrollButton" href="#" target="_self"> Get in Touch </a>
               </div>
               <div class="footer-call-to-action">
                 <h2 class="footer-call-to-action-title">Call Us</h2>
@@ -845,6 +845,7 @@
     <script src='navBar.js'></script>
     <script src='counter.js'></script>
     <script src='load.js'></script>
+    <script src='scroll.js'></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         
