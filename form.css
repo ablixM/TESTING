@@ -9,7 +9,7 @@
 
 .send-email{
   max-width: 800px;
-  background: #000000;
+  background: #ffffff;
   width: 50%;
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -35,7 +35,7 @@ form .form-row .input-data{
   height: 40px;
   margin: 0 20px;
   position: relative;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 form .form-row .textarea{
   height: 70px;
@@ -48,9 +48,9 @@ form .form-row .textarea{
   height: 100%;
   border: none;
   font-size: 17px;
-  border-bottom: 2px solid rgba(214, 214, 214, 0.12);
-  background-color: #000000;
-  color: white;
+  border-bottom: 2px solid rgba(191, 191, 191, 0.231);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   
 }
 .input-data input:focus ~ label, .textarea textarea:focus ~ label,
@@ -62,7 +62,7 @@ form .form-row .textarea{
 .textarea textarea{
   resize: none;
   padding-top: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .input-data label{
   position: absolute;
@@ -74,8 +74,8 @@ form .form-row .textarea{
 .textarea label{
   width: 100%;
   bottom: 40px;
-  background: #000000;
-  color: white;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 .input-data .underline{
   position: absolute;

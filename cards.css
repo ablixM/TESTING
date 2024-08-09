@@ -5,6 +5,7 @@
     transition: all 0.2s;
     position: relative;
     cursor: pointer;
+    color: black;
   }
   
   .card-inner {

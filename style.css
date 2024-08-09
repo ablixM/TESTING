@@ -137,7 +137,7 @@ text-fill-color: transparent;
 
 .sub-text-member{
     font-size: 1.4em;
-    color: white;
+    color: rgb(0, 0, 0);
     padding-left: 10px;
 }
 
@@ -147,7 +147,7 @@ text-fill-color: transparent;
     flex-direction: column;
    justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #ffffff;
     height: 500px;
     width: 100%;
     /* border: solid 1px red; */
@@ -160,14 +160,14 @@ text-fill-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #000000;
+    background-color: #ffffff;
     width: 95%;
-    border-bottom: white solid 0.5px; 
+    border-bottom: rgb(0, 0, 0) solid 0.5px; 
     
 }
 .stats:nth-child(1){
-    border-top: white solid 0.5px; 
-    border-bottom: white solid 0.5px; 
+    border-top: rgb(0, 0, 0) solid 0.5px; 
+    border-bottom: rgb(0, 0, 0) solid 0.5px; 
     margin-top: 10px; 
 }
 
@@ -175,7 +175,7 @@ text-fill-color: transparent;
     display: flex;
     align-items: start;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     height: 100%;
 }
 
@@ -197,14 +197,14 @@ text-fill-color: transparent;
 
 .stat-title p{
     font-size: 3em;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 300;
     line-height: 50px;
 }
 
 .stat-title span{
     font-size: 1.5em;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 200;
 }
 
@@ -236,15 +236,15 @@ text-fill-color: transparent;
     flex-direction: column;
     /* justify-content: center;
     align-items: center; */
-    background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     width: 100%;
   }
 
   .overview-container:nth-child(2){
-    background-image: linear-gradient(to top, #161616, #161616, #161616, #161616, #161616);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   }
   .overview-container:nth-child(3){
-    background-image: linear-gradient(to top, #000000, #070707, #0d0d0d, #121212, #161616);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   }
   
 
@@ -277,7 +277,7 @@ text-fill-color: transparent;
 }
 
 .section-five{
-    background-image: linear-gradient(to bottom, #161616, #121212, #0d0d0d, #070707, #000000);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
     
 
@@ -286,7 +286,7 @@ text-fill-color: transparent;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #fefefe;
     width: 100%;
     
     position: relative;
@@ -297,7 +297,7 @@ text-fill-color: transparent;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #ffffff;
     width: 50%;
     
 }
@@ -307,7 +307,7 @@ text-fill-color: transparent;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #f9f9f9;
     width: 50%;
     padding: 30px;
     
@@ -340,7 +340,7 @@ text-fill-color: transparent;
 
     .stat-title span{
         font-size: 1em;
-        color: white;
+        color: rgb(0, 0, 0);
         font-weight: 200;
         padding-left: 5px;
         padding-bottom: 10px;
@@ -387,9 +387,9 @@ text-fill-color: transparent;
     .section-two{
         display: flex;
         flex-direction: column;
-        background-color: #000000;
+        background-color: #ffffff;
         width: 100%;
-        background: #000000;
+        background: #ffffff;
         --gap: 5em;
         --line: 1px;
         --color: rgba(255, 255, 255, 0.2);
@@ -419,7 +419,7 @@ text-fill-color: transparent;
 
     .stat-title span{
         font-size: 1em;
-        color: white;
+        color: rgb(0, 0, 0);
         font-weight: 200;
         padding-left: 5px;
         padding-bottom: 10px;
@@ -462,7 +462,7 @@ text-fill-color: transparent;
         background-color: #313131;
         height: 500px;
         width: 100%;
-        background-image: linear-gradient(to bottom, #161616, #121212, #0d0d0d, #070707, #000000);
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
         /* border: solid 1px red; */
     }
 
@@ -487,7 +487,7 @@ text-fill-color: transparent;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #000000;
+        background-color: #ffffff;
         width: 100%;
     }
 
@@ -512,10 +512,10 @@ text-fill-color: transparent;
         background-color: #000000;
         width: 100%;
         height: 400px;
-        background: #000000;
+        background: #fdfdfd;
         --gap: 5em;
         --line: 1px;
-        --color: rgba(255, 255, 255, 0.2);
+        --color: rgba(0, 0, 0, 0.767);
       
         background-image: linear-gradient(
             -90deg,
@@ -585,14 +585,14 @@ text-fill-color: transparent;
     .card-inner p{
         font-size: 1.5em;
         font-weight: 200;
-        color: white;
+        color: rgb(0, 0, 0);
         padding: 10px; 
     }
 
     .card-inner span p{
         font-size: 2.5em;
         font-weight: 500;
-        color: white;
+        color: rgb(0, 0, 0);
         padding: 10px; 
     }
 
@@ -603,7 +603,7 @@ text-fill-color: transparent;
        padding-bottom: 60px;
         /* height: 400px; */
         align-items: center;
-        background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
+        
         width: 100%;
         padding: 40px 20px;
     }
@@ -642,16 +642,16 @@ text-fill-color: transparent;
 
     .div-first-text{
         font-size: .9em;
-        color: white;
-        font-weight: 200;
+        color: rgb(0, 0, 0);
+        font-weight: 400;
         padding: 0 20px;
     }
 
     .div-first li{
         list-style: none;
         padding: 0 10px ;
-        color: white;
-        font-weight: 200;
+        color: rgb(0, 0, 0);
+        font-weight: 400;
         font-size: .9em;
     }
 
