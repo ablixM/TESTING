@@ -67,6 +67,7 @@ header
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
 }
 .menu ul
 {
@@ -84,9 +85,23 @@ header
 }
 .menu ul li a:hover
 {
-  color: #03a9f4; 
+  color: #e803f4; 
 }
 
-
+.close-div{
+  position: absolute;
+  z-index: 2;
+  background-color: #ffffff00;
+  right: 15px;
+  top: 15px;
+  color: rgb(59, 59, 59);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 2em;
+  cursor: pointer;
+}
 
 
