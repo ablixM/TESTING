@@ -29,24 +29,6 @@ const contentData = [
     buttonLabel: "See More",
     link: "https://github.com/theblackethiopiandude/Minesweeper",
   },
-  {
-    imageUrl: "https://via.placeholder.com/400x150",
-    title: "Project Title 4",
-    description: "For Project 4",
-    tag: "Business",
-    date: "2024-08-06",
-    buttonLabel: "See More",
-    link: "https://github.com/theblackethiopiandude/Minesweeper",
-  },
-  {
-    imageUrl: "https://via.placeholder.com/400x150",
-    title: "Project Title 5",
-    description: "For Project 5",
-    tag: "Business",
-    date: "2024-08-05",
-    buttonLabel: "See More",
-    link: "https://github.com/theblackethiopiandude/Minesweeper",
-  },
 ];
 
 // Function to create and add project cards dynamically
