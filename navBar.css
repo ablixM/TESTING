@@ -106,13 +106,14 @@
     border-radius: 50%;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px gray solid;
+    border: 1px rgb(255, 255, 255) solid;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 15px;
     margin-right: 15px;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -131,7 +132,6 @@
 .sun{
     position: absolute;
     font-size: 1.5em;
-    filter: drop-shadow(0 0 2px rgb(255, 255, 255));
     z-index: 3;
     transition: 1s ease;
     
@@ -146,7 +146,7 @@ input:checked~.sun{
 
 .moon{
     font-size: 2em;
-    filter: drop-shadow(0 0 2px rgb(255, 255, 255));
+    
     z-index: 3;
     transition: 1s ease;
     transform: scale(0);
@@ -165,12 +165,7 @@ input:checked~.moon{
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 
-    inset 0 8px 60px rgba(0, 0, 0, .2),
-    inset 0 8px 8px rgba(0, 0, 0, .2),
-    inset 0 -4px 4px rgba(0, 0, 0, .2);
-    z-index: 1;
-    transition: 1s ease;
+   
 }
 
 input:checked~.toggle{

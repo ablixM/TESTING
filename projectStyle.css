@@ -109,7 +109,7 @@
     border-radius: 8px;
     overflow: hidden;
     background-color: #000000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .project-card img {
