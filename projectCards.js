@@ -1,4 +1,3 @@
-// Data to be added to each project card
 const contentData = [
   {
     imageUrl: "assets/images/SWIFT-image.png",
