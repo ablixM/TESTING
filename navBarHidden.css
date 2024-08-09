@@ -30,6 +30,7 @@ header
   background-position: center;
   cursor: pointer;
 }
+
 .toggle.active
 {
   background: url(https://i.ibb.co/rt3HybH/close.png);
@@ -38,6 +39,7 @@ header
   background-position: center;
   cursor: pointer;
 }
+
 .showcase
 {
   position: absolute;
