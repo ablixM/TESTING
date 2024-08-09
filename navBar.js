@@ -8,26 +8,22 @@ window.addEventListener("scroll", () => {
   logo.classList.toggle("logo-small", window.scrollY > 0);
 });
 
-// script.js
 window.addEventListener("load", () => {
   const containerDiv = document.querySelector(".links");
   const links = containerDiv.querySelectorAll("a");
 
-  // Set initial color to white
   links.forEach((link) => {
     link.style.color = "white";
   });
 
-  // Listen for scroll events
   window.addEventListener("scroll", () => {
     if (window.scrollY > 0) {
-      // Check if the page has been scrolled
       links.forEach((link) => {
-        link.style.color = "black"; // Change color to black on scroll
+        link.style.color = "black";
       });
     } else {
       links.forEach((link) => {
-        link.style.color = "white"; // Revert color to white when at the top
+        link.style.color = "white";
       });
     }
   });

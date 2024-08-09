@@ -155,9 +155,9 @@
     flex-grow: 1;
     margin-bottom: 10px;
     color: #000000;
-    max-height: 80px; /* Initial height to show partial description */
+    max-height: 80px; 
     overflow: hidden;
-    transition: max-height 0.5s ease; /* Smooth transition for height */
+    transition: max-height 0.5s ease; 
 }
 
 .card-info {

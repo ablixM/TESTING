@@ -31,19 +31,15 @@ const contentData = [
   },
 ];
 
-// Function to create and add project cards dynamically
 function createProjectCards() {
   const mainContainer = document.getElementById("mainContainer");
 
-  // Clear existing content if needed
   mainContainer.innerHTML = "";
 
   contentData.forEach((data, index) => {
-    // Create a new div element for the project card
     const card = document.createElement("div");
     card.classList.add("project-card");
 
-    // Add content to the project card
     card.innerHTML = `
             <img src="${data.imageUrl}" alt="Project Image">
             <h2 class="card-title">${data.title}</h2>
@@ -62,11 +58,9 @@ function createProjectCards() {
             </div>
         `;
 
-    // Append the project card to the main container
     mainContainer.appendChild(card);
   });
 
-  // Add event listeners to expand buttons
   const expandButtons = document.querySelectorAll(".expand-button");
   expandButtons.forEach((button) => {
     button.addEventListener("click", (e) => {
@@ -83,5 +77,4 @@ function createProjectCards() {
   });
 }
 
-// Initialize by creating project cards
 createProjectCards();

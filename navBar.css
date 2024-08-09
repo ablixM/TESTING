@@ -185,8 +185,8 @@ input:checked~.toggle{
 .burger-menu svg{
     width: 50px;
     height: 50px;
-    fill: #ffffff; /* Replace with your desired color */
-    color: #ffffff; /* Ensure currentColor is set */;
+    fill: #ffffff; 
+    color: #ffffff; 
 }
 
 
